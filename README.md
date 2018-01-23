@@ -1,1 +1,0 @@
-# ibukartini.github.io
