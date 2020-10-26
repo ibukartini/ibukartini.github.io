@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstap.min.css" >
+    <link rel="stylesheet" href="assets/css/style.css" >
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div id="canvas" >
+        <div id="timestamp"></div>
+        <div id="qrcode" >
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <img>
+    </div>
+
+        
+    <div class="form-group">
+      <label for="sel1">Select File:</label>
+      <input type="file" onchange="previewFile()">
+    </div>
+    
+    <div class="form-group">
+      <label for="sel1">Select Target:</label>
+      <select class="form-control" id="select-target"">
+        <option value="">select target</option>
+        <option value="telegram">Telegram</option>
+        <option value="whatsapp">Whatsapp</option>
+        <option value="youtube">YouTube</option>
+        <option value="instagram">Instagram</option>
+        <option value="twitter">Twitter</option>
+        <option value="email">E-mail</option>
+        <option value="soundcloud">Soundcloud</option>
+        <option value="tiktok">tiktok</option>
+        <option value="genius">genius</option>
+        <option value="blog">blog</option>
+      </select>
+    </div>
+    <div id="console">console. </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery.slim.min.js" ></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> -->
+    <script src="assets/js/bootstap.min.js" ></script>
+    <script src="assets/js/p5.min.js" ></script>
+    <script src="assets/js/main.js" ></script>
+  </body>
+</html>

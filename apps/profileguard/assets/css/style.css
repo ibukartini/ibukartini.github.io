@@ -1,0 +1,141 @@
+#timestamp{
+    font-size: 7px;
+    position: absolute;
+    right:  0px;
+    bottom:0;
+    margin: auto;
+    line-height: 7px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.8);
+}
+
+#canvas{
+    margin: auto;
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+    background-color: #eee;
+    border: 1px dashed #ddd;
+    display: block;
+    position: relative;
+    overflow: hidden;
+
+}
+
+#console{
+    border:1px solid lightgray;
+    padding: 20px;
+    background-color: #eee;
+}
+
+#canvas img{
+    width: 100%;
+}
+
+#canvas #qrcode{
+    position: absolute;
+    left: calc(50% - 80px);
+    top: calc(50% - 30px);
+}
+#canvas #qrcode span{
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-color: rgba(255,255,255,0.5);
+    margin:1px
+}
+
+/*telegram*/
+#canvas #qrcode.telegram span:nth-child(1){
+    background-color: #fff;
+}
+
+
+/*whatsapp*/
+#canvas #qrcode.whatsapp span:nth-child(2){
+    background-color: #fff;
+}
+
+/*youtube*/
+#canvas #qrcode.youtube span:nth-child(1){
+    background-color: #fff;
+}
+#canvas #qrcode.youtube span:nth-child(2){
+    background-color: #fff;
+}
+
+
+/*instagram*/
+#canvas #qrcode.instagram span:nth-child(3){
+    background-color: #fff;
+}
+
+/*twitter*/
+#canvas #qrcode.twitter span:nth-child(1){
+    background-color: #fff;
+}
+#canvas #qrcode.twitter span:nth-child(3){
+    background-color: #fff;
+}
+
+
+/*email*/
+#canvas #qrcode.email span:nth-child(2){
+    background-color: #fff;
+}
+#canvas #qrcode.email span:nth-child(3){
+    background-color: #fff;
+}
+
+/*soundcloud*/
+#canvas #qrcode.soundcloud span:nth-child(1){
+    background-color: #fff;
+}
+#canvas #qrcode.soundcloud span:nth-child(2){
+    background-color: #fff;
+}
+#canvas #qrcode.soundcloud span:nth-child(3){
+    background-color: #fff;
+}
+
+/*tiktok*/
+/* #canvas #qrcode.tiktok span:nth-child(1){
+    background-color: #fff;
+}
+#canvas #qrcode.tiktok span:nth-child(2){
+    background-color: #fff;
+}
+#canvas #qrcode.tiktok span:nth-child(3){
+    background-color: #fff;
+} */
+#canvas #qrcode.tiktok span:nth-child(4){
+    background-color: #fff;
+}
+
+/*genius*/
+#canvas #qrcode.genius span:nth-child(1){
+    background-color: #fff;
+}
+/* #canvas #qrcode.genius span:nth-child(2){
+    background-color: #fff;
+}
+#canvas #qrcode.genius span:nth-child(3){
+    background-color: #fff;
+} */
+#canvas #qrcode.genius span:nth-child(4){
+    background-color: #fff;
+}
+
+/*blog*/
+/* #canvas #qrcode.blog span:nth-child(1){
+    background-color: #fff;
+} */
+#canvas #qrcode.blog span:nth-child(2){
+    background-color: #fff;
+}/* 
+#canvas #qrcode.blog span:nth-child(3){
+    background-color: #fff;
+} */
+#canvas #qrcode.blog span:nth-child(4){
+    background-color: #fff;
+}
